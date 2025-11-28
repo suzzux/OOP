@@ -7,7 +7,7 @@ public class Main {
         // Конструктор ініціалізує поля firstName, lastName та birthYear
         Person person1 = new Person("Іван", "Франко", 1856);
         Person person2 = new Person("Леся", "Українка", 1871);
-        Person person3 = new Person("Іван", "Франко", 1856); // Цей об'єкт ідентичний person1 за даними
+        Person person3 = new Person("Іван", "Франко", 1856);
 
         // Використання геттерів для отримання даних
         System.out.println("Перевірка особи 1: " + person1.getFirstName() + " " + person1.getLastName());
